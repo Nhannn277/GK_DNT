@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "293220744348",
+    "firebase_url": "https://giuaky-dnt-default-rtdb.firebaseio.com",
+    "project_id": "giuaky-dnt",
+    "storage_bucket": "giuaky-dnt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293220744348:android:6200a2ac2fdd131b954159",
+        "android_client_info": {
+          "package_name": "com.example.giuaky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGgyTivSPRGqGyTKom_cras_W6cMaRT0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
