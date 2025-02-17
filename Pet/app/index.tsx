@@ -11,9 +11,9 @@ export default function Index() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
-        router.replace("/petList"); // Nếu đã đăng nhập, chuyển đến danh sách pet
+        router.replace("/petList");
       } else {
-        router.replace("/login"); // Nếu chưa đăng nhập, chuyển đến trang đăng nhập
+        router.replace("/login");
       }
       setLoading(false);
     });

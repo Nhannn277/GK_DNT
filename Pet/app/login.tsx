@@ -12,7 +12,7 @@ export default function Login() {
   const handleLogin = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.replace("/petList"); // Chuyển đến danh sách pet sau khi đăng nhập thành công
+      router.replace("/petList");
     } catch (error: any) {
       Alert.alert("Lỗi đăng nhập", error.message);
     }
